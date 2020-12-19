@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: rgb(177 169 144 / 12%);
+    
+}
+.work{
+    background-color: white;
+    display: flex;
+    margin: 82px 65px;
+    box-shadow:5px 11px 18px 10px #b3aeae;
+}
+.main{
+    margin:40px 100px;
+    background-color: white;
+    height:100%;
+    width:100%;
+}
+.nav{
+    display: inline-flex;
+    width: 100%;
+}
+.left{
+    display:flex;
+    background-color: rgb(206, 227, 236);
+    border: 2px solid black;
+    font-size:15px;
+    padding: 5px 18px;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.mid{
+    display: inline-flex;
+    margin-left: 30px;
+    /* border: 2px solid black; */
+}
+.mid li{
+    display: flex;
+    list-style: none;
+}
+.mid li a{
+    margin: 10px 13px;
+    text-decoration: none;
+    font-size:12px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.right{
+    display: inline-flex;
+    /* border: 2px solid black; */
+    margin-left:auto;
+}
+.right li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa{
+
+    padding:2px 7px;
+}
+section{
+    margin-top: 50px;
+    display: flex;
+    height: 550px;
+    /* border: 2px solid black; */
+}
+.main-left{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(p1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:500px;
+}
+.main-right{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main-right-top{
+    display: flex;
+    flex-direction: column;
+    height:55%;
+    letter-spacing: 1px;
+
+}
+.main-right-top h1{
+    font-size: 22px;
+    margin: 25%;
+    padding: 15px;
+    /* letter-spacing: 2px; */
+    margin-left: 10px;
+    /* border-top: 2px solid black; */
+}
+h1::before{
+    background-color: black;
+    content: "";
+    height:2px;
+    width: 50px;
+    display: block;
+    position: absolute;
+}
+h1::after{
+    background-color: black;
+    content: "";
+    height:2px;
+    width: 50px;
+    display: block;
+    position: absolute;
+}
+
+
+.main-right-bottom{
+    display: flex;
+    height:300px;
+}
+.main-right-bottom-left{
+    width:50%;
+    height: 90%;
+    background-color: aqua;
+    background-image: url(plant.jpg);
+    background-position: center;
+    background-size: cover;
+    backface-visibility: inherit;
+}
+.main-right-bottom-right{
+    margin-left: 20px;
+    background-color: rgb(192, 162, 107);
+    width:50%;
+    height:60%;
+    background-image: url(flower.jpg);
+    background-position:center;
+    background-size: cover;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 150px;
+    background-color: rgb(106 125 86);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    padding: 20px 10px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn .b1{
+    font-weight: bold;
+    font-size: 10px;
+}
+.box-1{
+    /* border:2px solid black; */
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: lightcoral; */
+}   
+
+.box-left p{
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+
+}
+.blank{
+    display: flex;
+    border-top: 2px solid black;
+    width: 60px;
+    margin-left:60px;
+}
+.blank1{
+    margin-top: 15px;
+    display: flex;
+    border-top: 2px solid black;
+    width: 40px;
+    margin-left:60px;
+}
+.box-right{
+    width: 50%;
+    display: flex;
+    margin-top: 10px;
+}
+.box-2{
+    height:350px;
+    width:690px;
+    /* border: 2px solid green; */
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-between;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 220px;
+    height: 250px;
+    background-image: url(flower.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.block2{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    width: 220px;
+    height: 250px;
+    background-image: url(plant.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 220px;
+    height: 250px;
+    background-image: url(p1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.block-1{
+    margin-top: 200px;
+    margin-left:40px;
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 130px;
+    height: 130px;
+    background-color: rgb(219, 216, 216);
+}
+.block-2{
+    margin-top:200px;
+    margin-left: 40px;
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 130px;
+    height: 130px;
+    background-color: rgb(219, 216, 216);
+}
+.block-3{
+    margin-top: 200px;
+    margin-left: 40px;
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 130px;
+    height: 130px;
+    background-color: rgb(219, 216, 216);
+}
+h2::before{
+    background-color: black;
+    content: "";
+    height:2px;
+    width:30px;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+}
+h2::after{
+    background-color: black;
+    content: "";
+    height:2px;
+    width: 30px;
+    display: block;
+    position: absolute;
+}
+ h2{
+     font-size: 15px;
+     margin:30px 15px;
+
+ }
+ .box-3{
+     display: flex;
+     justify-content:space-between;
+     height:130px;
+     /* border: 2px solid black; */
+     margin-top: 10px;
+ }
+ .block4{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height:130px;
+    background-position: center;
+    background-size: cover;
+}
+ 
+ .block5{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+}
+ 
+ .block6{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+}
+.box-4{
+    display: flex;
+    height: 300px;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top:20px;
+    background-image: url(plant.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-5{
+    margin-top: 50px;
+    display: flex;
+    height:120px;
+    /* border: 2px solid green; */
+    justify-content:space-between;
+}
+.s1{
+     height:120px;
+     width:120px;
+     background-image: url(p1.jpg);
+     background-position: center;
+     background-size: cover;
+
+} 
+.s2{
+     height:120px;
+     width:120px;
+     background-image: url(plant.jpg);
+     background-position: center;
+     background-size: cover;
+
+} 
+.s3{
+     height:120px;
+     width:120px;
+     background-image: url(flower.jpg);
+     background-position: center;
+     background-size: cover;
+
+} 
+.s4{
+     height:120px;
+     width:120px;
+     background-image: url(p4.jpg);
+     background-position: center;
+     background-size: cover;
+
+} 
+ 
+.s5{
+     height:120px;
+     width:150px;
+}
+.s5 h4{
+    font-size: 15px;
+     margin:0px 25px;
+}
+h4::before{
+    background-color: black;
+    content: "";
+    height:2px;
+    width:30px;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+}
+h4::after{
+    background-color: black;
+    content: "";
+    height:2px;
+    width: 30px;
+    display: block;
+    position: absolute;
+}
+
+
+hr.line{
+    margin-top: 40px;
+    border-top: 2px solid black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 20px;
+    align-items: center;
+}
+.footer h3{
+    border:2px solid black;
+    padding: 2px 13px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: rgb(206, 227, 236);
+    margin-bottom:80px;
+}
+.footer li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    justify-content: space-around;
+}
