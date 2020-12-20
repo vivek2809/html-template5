@@ -209,7 +209,7 @@ h1::after{
 }
 .box-2{
     height:350px;
-    width:690px;
+    width:100%;
     /* border: 2px solid green; */
     display: flex;
     margin-top: 20px;
